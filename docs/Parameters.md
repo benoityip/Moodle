@@ -278,7 +278,7 @@ Default: 1
 
 ### osDiskStorageType
 
-Azure storage type for all VMs' OS disks. With htmlLocalCopySwith true, Premium_LRS (SSD) is strongly recommended, as PHP files will be served from OS disks.
+Azure storage type for non-scale-set VMs' OS disks. Web VM scale set OS disks use Standard SSD.
 
 Type: string
 

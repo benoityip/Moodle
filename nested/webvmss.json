@@ -157,7 +157,7 @@
                             "createOption": "FromImage",
                             "diskSizeGB": "[parameters('moodleCommon').OSDiskSizeInGB]",
                             "managedDisk": {
-                                "storageAccountType": "[parameters('moodleCommon').osDiskStorageType]"
+                                "storageAccountType": "StandardSSD_LRS"
                             }
                         }
                     }
