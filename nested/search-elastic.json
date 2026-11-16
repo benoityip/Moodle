@@ -42,7 +42,7 @@
         },
         {
             "type": "Microsoft.Compute/virtualMachines",
-            "apiVersion": "2017-03-30",
+            "apiVersion": "2019-07-01",
             "dependsOn": [
                 "[concat('Microsoft.Network/networkInterfaces/', parameters('moodleCommon').elasticNicName1)]"
             ],
@@ -160,7 +160,7 @@
         },
         {
             "type": "Microsoft.Compute/virtualMachines",
-            "apiVersion": "2017-03-30",
+            "apiVersion": "2019-07-01",
             "dependsOn": [
                 "[concat('Microsoft.Network/networkInterfaces/', parameters('moodleCommon').elasticNicName2)]"
             ],
@@ -278,7 +278,7 @@
         },
         {
             "type": "Microsoft.Compute/virtualMachines",
-            "apiVersion": "2017-03-30",
+            "apiVersion": "2019-07-01",
             "dependsOn": [
                 "[concat('Microsoft.Network/networkInterfaces/', parameters('moodleCommon').elasticNicName3)]"
             ],
