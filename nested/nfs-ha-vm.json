@@ -86,8 +86,9 @@
             "type": "object"
         },
         "osDiskStorageType": {
-            "defaultValue": "Premium_LRS",
+            "defaultValue": "StandardSSD_LRS",
             "allowedValues": [
+                "StandardSSD_LRS",
                 "Premium_LRS",
                 "Standard_LRS"
             ],
@@ -208,7 +209,7 @@
                             "count": "[parameters('dataDiskCountPerVM')]",
                             "input": {
                                 "managedDisk": {
-                                    "storageAccountType": "Premium_LRS"
+                                    "storageAccountType": "StandardSSD_LRS"
                                 },
                                 "diskSizeGB": "[parameters('dataDiskSizeInGB')]",
                                 "lun": "[copyIndex('dataDisks')]",

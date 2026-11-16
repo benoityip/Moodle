@@ -57,7 +57,7 @@
                     "mysqlflexHaEnabled":           { "value": "[parameters('mysqlflexHaEnabled')]" },
                     "fileServerType":               { "value": "azurefiles" },
                     "fileServerDiskSize":           { "value": 1024 },
-                    "storageAccountType":           { "value": "Premium_LRS" },
+                    "storageAccountType":           { "value": "Standard_LRS" },
                     "autoscaleVmSku":		        { "value": "Standard_DS3_v2" }
                 },
                 "templateLink": {

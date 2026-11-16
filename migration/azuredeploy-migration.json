@@ -237,7 +237,7 @@
                     "mysqlVersion":                 { "value": "[parameters('mysqlVersion')]" },
                     "postgresVersion":              { "value": "9.6" },
                     "fileServerType":               { "value": "azurefiles" },
-                    "storageAccountType":           { "value": "Premium_LRS" },
+                    "storageAccountType":           { "value": "Standard_LRS" },
                     "fileServerDiskSize":           { "value": "[int(parameters('fileServerDiskSize'))]" },
                     "searchType":                   { "value": "none" },
                     "azureSearchSku":               { "value": "basic" },

@@ -282,9 +282,9 @@ Azure storage type for non-scale-set VMs' OS disks. Web VM scale set OS disks us
 
 Type: string
 
-Possible Values: ["Premium_LRS","Standard_LRS"]
+Possible Values: ["StandardSSD_LRS","Premium_LRS","Standard_LRS"]
 
-Default: Premium_LRS
+Default: StandardSSD_LRS
 
 
 ### dbServerType

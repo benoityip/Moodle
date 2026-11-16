@@ -215,7 +215,7 @@
                 "count": 8,
                 "input": {
                     "managedDisk": {
-                        "storageAccountType": "Premium_LRS"
+                        "storageAccountType": "StandardSSD_LRS"
                     },
                     "diskSizeGB": "[parameters('moodleCommon').fileServerDiskSize]",
                     "lun": "[copyIndex('nfsDiskArray')]",

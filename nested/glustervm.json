@@ -97,7 +97,7 @@
                             "count": "[parameters('moodleCommon').fileServerDiskCount]",
                             "input": {
                                 "managedDisk": {
-                                    "storageAccountType": "Premium_LRS"
+                                    "storageAccountType": "StandardSSD_LRS"
                                 },
                                 "diskSizeGB": "[parameters('moodleCommon').fileServerDiskSize]",
                                 "lun": "[copyIndex('dataDisks')]",

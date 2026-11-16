@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "storageAccountType": {
-            "defaultValue": "Premium_LRS",
+            "defaultValue": "Standard_LRS",
             "allowedValues": [
                 "Standard_LRS",
                 "Standard_GRS",
